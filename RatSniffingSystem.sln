@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35919.96 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatSniffingSystem.Domain", "RatSniffingSystem.Domain\RatSniffingSystem.Domain.csproj", "{B4A8DCF0-7028-4369-BD88-753B946AC382}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatSniffingSystem.Application", "RatSniffingSystem.Application\RatSniffingSystem.Application.csproj", "{6B1EF298-C154-4B2E-9566-1291CD4214ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatSniffingSystem.Infrastructure", "RatSniffingSystem.Infrastructure\RatSniffingSystem.Infrastructure.csproj", "{1CE541AE-0DA4-45D5-8896-38BA36F6A3DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatSniffingSystem.Persistence", "RatSniffingSystem.Persistence\RatSniffingSystem.Persistence.csproj", "{85A0344B-D3B2-4C44-A8B2-ED4C986D8758}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatSniffingSystem.API", "RatSniffingSystem.API\RatSniffingSystem.API.csproj", "{88816998-5221-4DC4-9969-F41F87928265}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatSniffingSystem.Tests", "RatSniffingSystem.Tests\RatSniffingSystem.Tests.csproj", "{5DBAD185-0841-416A-98F0-C50FE1EC8BBE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B4A8DCF0-7028-4369-BD88-753B946AC382}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B4A8DCF0-7028-4369-BD88-753B946AC382}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B4A8DCF0-7028-4369-BD88-753B946AC382}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B4A8DCF0-7028-4369-BD88-753B946AC382}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B1EF298-C154-4B2E-9566-1291CD4214ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B1EF298-C154-4B2E-9566-1291CD4214ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B1EF298-C154-4B2E-9566-1291CD4214ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B1EF298-C154-4B2E-9566-1291CD4214ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1CE541AE-0DA4-45D5-8896-38BA36F6A3DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1CE541AE-0DA4-45D5-8896-38BA36F6A3DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1CE541AE-0DA4-45D5-8896-38BA36F6A3DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1CE541AE-0DA4-45D5-8896-38BA36F6A3DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{85A0344B-D3B2-4C44-A8B2-ED4C986D8758}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85A0344B-D3B2-4C44-A8B2-ED4C986D8758}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85A0344B-D3B2-4C44-A8B2-ED4C986D8758}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85A0344B-D3B2-4C44-A8B2-ED4C986D8758}.Release|Any CPU.Build.0 = Release|Any CPU
+		{88816998-5221-4DC4-9969-F41F87928265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{88816998-5221-4DC4-9969-F41F87928265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{88816998-5221-4DC4-9969-F41F87928265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{88816998-5221-4DC4-9969-F41F87928265}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DBAD185-0841-416A-98F0-C50FE1EC8BBE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DBAD185-0841-416A-98F0-C50FE1EC8BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DBAD185-0841-416A-98F0-C50FE1EC8BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DBAD185-0841-416A-98F0-C50FE1EC8BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {9BBC19B9-8619-498C-AA48-CFD1A1FADC1C}
+	EndGlobalSection
+EndGlobal
