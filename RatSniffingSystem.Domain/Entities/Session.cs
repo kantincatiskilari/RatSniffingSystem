@@ -24,7 +24,7 @@ namespace RatSniffingSystem.Domain.Entity
         public string? MaterialType { get; set; }
         public DateTime? MaterialThawedAt { get; set; }
         public DateTime StartTime { get; set; }
-        public List<Trial> Trials { get; set; } = new List<Trial>();
+        public List<Trial> Trials { get; set; } = new();
         public List<BehaviorLog> BehaviorLogs { get; set; } = new();
         public List<FoodIntakeLog> FoodIntakeLogs { get; set; } = new();
         public List<Intervention> Interventions { get; set; } = new();
