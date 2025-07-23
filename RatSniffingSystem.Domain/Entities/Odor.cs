@@ -17,6 +17,10 @@ namespace RatSniffingSystem.Domain.Entities
         public bool IsHazardous { get; set; } = false;
         public string? ExternalCode { get; set; } // Varsa dis sistemler id'si
 
-       
+        // Navigation
+
+        public List<TrialOdor> TrialUsages { get; set; }
+
+
     }
 }

@@ -15,7 +15,7 @@ namespace RatSniffingSystem.Domain.Entities
         public Session Session { get; set; } = null!;
 
         public double AmountInCc { get; set; }
-        public TimeSpan? TimeGiven { get; set; }
+        public DateTime? TimeGiven { get; set; }
         public string Notes { get; set; }
     }
 }

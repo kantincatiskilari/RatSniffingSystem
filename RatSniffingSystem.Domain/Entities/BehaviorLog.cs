@@ -16,7 +16,7 @@ namespace RatSniffingSystem.Domain.Entities
         public Session Session { get; set; } = null!;
 
         public BehaviorType BehaviorType { get; set; }
-        public TimeSpan TimeObserved { get; set; }
+        public DateTime TimeObserved { get; set; }
         public string? Notes { get; set; }
     }
 }

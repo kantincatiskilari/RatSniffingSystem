@@ -16,14 +16,13 @@ namespace RatSniffingSystem.Domain.Entities
 
         public int TrialNumber { get; set; }
         public string TargetOdor { get; set; } = string.Empty;
-        public List<string> DistractorOdors { get; set; } = new();
-        public List<OdorPosition> OdorPositions { get; set; }
-        public TimeSpan FirstResponseTime { get; set; }
-        public TimeSpan? FirstCorrectTime { get; set; }
+        public List<TrialOdor> OdorPositions { get; set; } = new ();
+        public DateTime FirstResponseTime { get; set; }
+        public DateTime? FirstCorrectTime { get; set; }
         public bool IsCorrectPositive { get; set; }
         public bool IsFalsePositive { get; set; }
-        public List<string> FalsePositiveOdors { get; set; }
         public bool IsCorrectNegative { get; set; }
         public bool IsFalseNegative { get; set; }
+
     }
 }

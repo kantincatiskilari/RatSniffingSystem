@@ -4,10 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RatSniffingSystem.Domain.Entities
+namespace RatSniffingSystem.Domain.Enums
 {
-    public class OdorPosition
+    public enum OdorType
     {
-                         
+        Target = 0,
+        Distractor = 1,
+        Blank = 2
     }
 }

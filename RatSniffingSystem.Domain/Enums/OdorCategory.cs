@@ -13,6 +13,7 @@ namespace RatSniffingSystem.Domain.Enums
         VOC = 2,
         Blood = 3,
         Urine = 4,
-        Serum = 5
+        Serum = 5,
+        Synthetic = 6
     }
 }

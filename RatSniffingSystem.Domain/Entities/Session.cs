@@ -22,8 +22,8 @@ namespace RatSniffingSystem.Domain.Entity
         public string CageCode { get; set; } = string.Empty;
 
         public string? MaterialType { get; set; }
-        public TimeSpan? MaterialThawedAt { get; set; }
-        public TimeSpan StartTime { get; set; }
+        public DateTime? MaterialThawedAt { get; set; }
+        public DateTime StartTime { get; set; }
         public List<Trial> Trials { get; set; } = new List<Trial>();
         public List<BehaviorLog> BehaviorLogs { get; set; } = new();
         public List<FoodIntakeLog> FoodIntakeLogs { get; set; } = new();
