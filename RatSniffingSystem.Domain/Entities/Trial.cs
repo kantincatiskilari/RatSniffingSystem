@@ -1,4 +1,5 @@
-﻿using RatSniffingSystem.Domain.Entity;
+﻿using RatSniffingSystem.Domain.Common;
+using RatSniffingSystem.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RatSniffingSystem.Domain.Entities
 {
-    public class Trial
+    public class Trial : ISessionLinkedEntity
     {
         public Guid Id { get; set; }
 

@@ -1,4 +1,5 @@
-﻿using RatSniffingSystem.Domain.Entity;
+﻿using RatSniffingSystem.Domain.Common;
+using RatSniffingSystem.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RatSniffingSystem.Domain.Entities
 {
-    public class TransferTest
+    public class TransferTest : ISessionLinkedEntity
     {
         public Guid Id { get; set; }
 
@@ -15,7 +16,7 @@ namespace RatSniffingSystem.Domain.Entities
         public Session Session { get; set; }
 
         public string NewOdor { get; set; } = string.Empty; // Yeni hedef koku
-        public int SessionToSuccess { get; set; } // %80 Basari Orani Icin Gecen Sure
+        public int SessionToSuccess { get; set; } // %80 Basari Orani Icin Gecen Oturum
         public bool WasSuccessful { get; set; }
         public string? Notes { get; set; }
     }

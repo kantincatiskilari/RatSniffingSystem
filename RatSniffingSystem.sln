@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35919.96 d17.13
+VisualStudioVersion = 17.13.35919.96
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatSniffingSystem.Domain", "RatSniffingSystem.Domain\RatSniffingSystem.Domain.csproj", "{B4A8DCF0-7028-4369-BD88-753B946AC382}"
 EndProject
@@ -14,6 +14,8 @@ EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatSniffingSystem.API", "RatSniffingSystem.API\RatSniffingSystem.API.csproj", "{88816998-5221-4DC4-9969-F41F87928265}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatSniffingSystem.Tests", "RatSniffingSystem.Tests\RatSniffingSystem.Tests.csproj", "{5DBAD185-0841-416A-98F0-C50FE1EC8BBE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RatSniffingSystem.Contracts", "RatSniffingSystem.Contracts\RatSniffingSystem.Contracts.csproj", "{6692BF63-DA09-49BC-8485-2DE8E9134A07}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +47,10 @@ Global
 		{5DBAD185-0841-416A-98F0-C50FE1EC8BBE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5DBAD185-0841-416A-98F0-C50FE1EC8BBE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5DBAD185-0841-416A-98F0-C50FE1EC8BBE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6692BF63-DA09-49BC-8485-2DE8E9134A07}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6692BF63-DA09-49BC-8485-2DE8E9134A07}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6692BF63-DA09-49BC-8485-2DE8E9134A07}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6692BF63-DA09-49BC-8485-2DE8E9134A07}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

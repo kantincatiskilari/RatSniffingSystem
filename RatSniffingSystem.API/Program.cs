@@ -1,4 +1,7 @@
+using RatSniffingSystem.Application.Interfaces;
 using RatSniffingSystem.Application.Mappings;
+using RatSniffingSystem.Persistence;
+using RatSniffingSystem.Persistence.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -9,6 +12,8 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddAutoMapper(typeof(MappingProfile).Assembly);
+
+builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
 
 
 var app = builder.Build();
