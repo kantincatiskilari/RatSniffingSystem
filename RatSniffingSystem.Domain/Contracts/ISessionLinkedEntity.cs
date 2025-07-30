@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RatSniffingSystem.Application.Interfaces
+namespace RatSniffingSystem.Domain.Contracts
 {
-    public interface IRatService
+    public interface ISessionLinkedEntity
     {
-
+        public Guid SessionId { get; set; }
     }
 }

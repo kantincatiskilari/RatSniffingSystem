@@ -1,5 +1,4 @@
 ﻿using RatSniffingSystem.Domain.Entities;
-using RatSniffingSystem.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,6 +9,7 @@ namespace RatSniffingSystem.Application.DTOs
 {
     public class CreateTrialDto
     {
+        public Guid SessionId { get; set; }
         public int TrialNumber { get; set; }
         public string TargetOdor { get; set; } = string.Empty;
         public DateTime FirstResponseTime { get; set; }

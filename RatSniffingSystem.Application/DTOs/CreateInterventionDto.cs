@@ -1,4 +1,4 @@
-﻿using RatSniffingSystem.Domain.Entity;
+﻿using RatSniffingSystem.Domain.Entities;
 using RatSniffingSystem.Domain.Enums;
 using System;
 using System.Collections.Generic;
@@ -11,10 +11,7 @@ namespace RatSniffingSystem.Application.DTOs
     public class CreateInterventionDto
     {
 
-
         public Guid SessionId { get; set; }
-
-
         public string Substance { get; set; } = string.Empty;
         public string Dose { get; set; } = string.Empty;
         public DateTime AppliedAt { get; set; }

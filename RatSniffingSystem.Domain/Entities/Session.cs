@@ -1,13 +1,14 @@
-﻿using RatSniffingSystem.Domain.Entities;
+﻿using RatSniffingSystem.Domain.Contracts;
+using RatSniffingSystem.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RatSniffingSystem.Domain.Entity
+namespace RatSniffingSystem.Domain.Entities
 {
-    public class Session
+    public class Session : IHasId
     {
         public Guid Id { get; set; }
 

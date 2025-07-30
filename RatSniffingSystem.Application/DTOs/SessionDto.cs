@@ -1,5 +1,4 @@
 ﻿using RatSniffingSystem.Domain.Entities;
-using RatSniffingSystem.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;

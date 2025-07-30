@@ -1,4 +1,5 @@
-﻿using RatSniffingSystem.Domain.Entities;
+﻿using RatSniffingSystem.Domain.Contracts;
+using RatSniffingSystem.Domain.Entities;
 using RatSniffingSystem.Domain.Enums;
 using System;
 using System.Collections.Generic;
@@ -6,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace RatSniffingSystem.Domain.Entity
+namespace RatSniffingSystem.Domain.Entities
 {
-    public class Rat
+    public class Rat : IHasId
     {
         public Guid Id { get; set; }
         public string Code { get; set; } = string.Empty;

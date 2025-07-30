@@ -1,7 +1,6 @@
 ﻿using AutoMapper;
 using RatSniffingSystem.Application.DTOs;
 using RatSniffingSystem.Domain.Entities;
-using RatSniffingSystem.Domain.Entity;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -27,13 +26,22 @@ namespace RatSniffingSystem.Application.Mappings
             // Session
             CreateMap<Session, SessionDto>().ReverseMap();
             CreateMap<CreateSessionDto, Session>();
-            CreateMap<UpdateSessionDto, Session>(); 
+            CreateMap<UpdateSessionDto, Session>();
+
+            // Odor
+            CreateMap<Odor, OdorDto>().ReverseMap();
+            CreateMap<CreateOdorDto, Odor>();
 
             // Trial
             CreateMap<Trial, TrialDto>().ReverseMap();
             CreateMap<TrialOdor, TrialOdorDto>().ReverseMap();
             CreateMap<CreateTrialDto, Trial>();
             CreateMap<CreateTrialOdorDto, TrialOdor>();
+
+            // Trial Odor
+            CreateMap<TrialOdor, TrialOdorDto>().ReverseMap();
+            CreateMap<CreateTrialOdorDto, TrialOdor>();
+
 
             // RatWeight
             CreateMap<RatWeight, RatWeightDto>().ReverseMap();

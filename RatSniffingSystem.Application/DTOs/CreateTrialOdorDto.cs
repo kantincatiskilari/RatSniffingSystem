@@ -9,6 +9,7 @@ namespace RatSniffingSystem.Application.DTOs
 {
     public class CreateTrialOdorDto
     {
+        public Guid TrialId { get; set; }
         public Guid OdorId { get; set; }
         public OdorType OdorType { get; set; }
         public int PositionIndex { get; set; }

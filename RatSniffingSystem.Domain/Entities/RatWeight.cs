@@ -1,4 +1,4 @@
-﻿using RatSniffingSystem.Domain.Entity;
+﻿using RatSniffingSystem.Domain.Contracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace RatSniffingSystem.Domain.Entities
 {
-    public class RatWeight
+    public class RatWeight : IHasId
     {
         public Guid Id { get; set; }
 

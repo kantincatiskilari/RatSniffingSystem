@@ -1,4 +1,4 @@
-﻿using RatSniffingSystem.Domain.Entity;
+﻿using RatSniffingSystem.Domain.Entities;
 using RatSniffingSystem.Domain.Enums;
 using System;
 using System.Collections.Generic;

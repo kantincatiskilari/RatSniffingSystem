@@ -1,4 +1,4 @@
-﻿using RatSniffingSystem.Domain.Entity;
+﻿using RatSniffingSystem.Domain.Entities;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,7 +10,6 @@ namespace RatSniffingSystem.Application.DTOs
     public class CreateFoodIntakeLogDto
     {
     
-
         public Guid SessionId { get; set; }
 
         public double AmountInCc { get; set; }

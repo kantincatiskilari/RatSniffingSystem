@@ -1,4 +1,4 @@
-﻿using RatSniffingSystem.Domain.Entity;
+﻿using RatSniffingSystem.Domain.Contracts;
 using RatSniffingSystem.Domain.Enums;
 using System;
 using System.Collections.Generic;
@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace RatSniffingSystem.Domain.Entities
 {
-    public class BehaviorLog
+    public class BehaviorLog : ISessionLinkedEntity, IHasId
     {
         public Guid Id { get; set; }
 

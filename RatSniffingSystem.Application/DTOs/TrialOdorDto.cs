@@ -10,11 +10,16 @@ namespace RatSniffingSystem.Application.DTOs
 {
     public class TrialOdorDto
     {
+        public Guid Id { get; set; }
+
+        public Guid TrialId { get; set; }
         public Guid OdorId { get; set; }
-        public string OdorName { get; set; }
+
         public bool IsFalsePositive { get; set; } = false;
 
         public OdorType OdorType { get; set; }
         public int PositionIndex { get; set; }
+
     }
+
 }
