@@ -1,4 +1,5 @@
-﻿using RatSniffingSystem.Domain.Contracts;
+﻿using RatSniffingSystem.Domain.Common;
+using RatSniffingSystem.Domain.Contracts;
 
 using System;
 using System.Collections.Generic;

@@ -3,6 +3,7 @@ using AutoMapper.QueryableExtensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Logging;
 using RatSniffingSystem.Application.Exceptions;
+using RatSniffingSystem.Domain.Common;
 using RatSniffingSystem.Domain.Contracts;
 
 using RatSniffingSystem.Persistence.Context;
